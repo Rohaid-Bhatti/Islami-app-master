@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_quran"
+        android:icon="@drawable/ic_quran"
+        android:title="@string/title_quran" />
+
+    <item
+    android:id="@+id/navigation_Quotes"
+    android:icon="@drawable/ic_book"
+    android:title="@string/title_quotes" />
+
+    <item
+        android:id="@+id/navigation_mention"
+        android:icon="@drawable/ic_mention"
+        android:title="@string/title_mention" />
+
+    <item
+        android:id="@+id/navigation_qabla"
+        android:icon="@drawable/ic_bosla"
+        android:title="@string/qabla" />
+
+    <item
+        android:id="@+id/navigation_radio"
+        android:icon="@drawable/ic_radio"
+        android:title="@string/title_radio" />
+
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/mainbackground"
+    tools:context=".SouraContentActivity">
+
+
+    <ImageView
+        android:id="@+id/image_borders"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/content_apps"
+        app:srcCompat="@drawable/ic_border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/ayat_content_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="32dp" />
+
+    <ImageView
+        android:id="@+id/image_borders2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:rotation="180"
+        android:contentDescription="@string/content_apps"
+        app:srcCompat="@drawable/ic_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

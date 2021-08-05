@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"
+    tools:context=".TabsFragment.MentionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/sebha_img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/sebha_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:contentDescription="@string/sebha_img" />
+
+    <ImageView
+        android:id="@+id/refresh_ic"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/ic_refresh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sebha_img"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/refresh_icon" />
+
+    <TextView
+        android:id="@+id/tsbeh_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tsbeh_sum"
+        android:textSize="23sp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/refresh_ic"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tsbeha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tsbeha"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintTop_toBottomOf="@id/refresh_ic"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="23sp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/tsbeha_count"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="0"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:background="@drawable/text_accent_background"
+        app:layout_constraintTop_toBottomOf="@id/tsbeha"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/tsbeha_countSum"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="0"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:background="@drawable/text_accent_background"
+        app:layout_constraintTop_toBottomOf="@id/tsbeha"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <Spinner
+        android:id="@+id/tsebh_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:paddingStart="24dp"
+        android:entries="@array/tsbeh_array"
+        android:paddingEnd="24dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:background="@drawable/text_accent_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tsbeha_countSum" />
+</android.support.constraint.ConstraintLayout>

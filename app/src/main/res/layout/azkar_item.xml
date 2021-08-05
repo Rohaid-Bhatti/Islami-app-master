@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/azkar_text"
+        android:textColor="#000000"
+        android:fontFamily="@font/me_quran_webfont"
+        android:background="@drawable/text_accent_background"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">اسلامى</string>
+    <string name="title_quran">القران الكريم</string>
+    <string name="title_quotes">حديث وذكر</string>
+    <string name="title_azkar">الاذكار</string>
+    <string name="title_radio">راديو</string>
+    <string name="title_mention">السبحة</string>
+    <string name="splash_welcome_screen">Splash Welcome Screen</string>
+
+    <string name="title_activity_home">اسلامى</string>
+    <string name="tool_name">سورة</string>
+    <string name="tsbeh_sum">مجموع التسبيحات</string>
+    <string name="tsbeha">التسبيحة</string>
+    <string name="cannot_connect_to_server">Cannot connect to server</string>
+    <string name="error">error</string>
+    <string name="loading">loading</string>
+    <string name="please_wait">please wait</string>
+    <string name="radio">radio</string>
+    <string name="cannot_play_channel">cannot play channel</string>
+    <array name="tsbeh_array">
+        <item>الحمد لله</item>
+        <item>سبحان الله</item>
+        <item>الله اكبر</item>
+    </array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content_apps">Content Apps</string>
+    <string name="sebha_img">sebha Img</string>
+    <string name="refresh_icon">refresh icon</string>
+    <string name="qabla">القبلة</string>
+
+
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="unable_to_get_your_location" translatable="false">Unable to get your location</string>
+
+    <string name="degree" translatable="false">°</string>
+    <string name="dialog_message_sensor_not_exist" translatable="false">Your device doesn\'t have the required sensors</string>
+    <string name="dialog_title" translatable="false">Alert</string>
+    <string name="footer_image">Footer Image</string>
+
+    <string name="compass_dial" translatable="false">Compass Dial</string>
+    <string name="compass_hands" translatable="false">Compass Hands</string>
+    <string name="gps_settings_title">GPS settings</string>
+    <string name="gps_settings_text">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="settings_button_ok">Settings</string>
+    <string name="settings_button_cancel">Cancel</string>
+    <string name="msg_permission_not_granted_yet">Location access not available yet</string>
+    <string name="msg_permission_granted">Location Access Granted, press GPS button now.</string>
+    <string name="toast_permission_required">This app requires Access Location</string>
+    <string name="your_location">Your Location:</string>
+    <string name="location_not_ready">Location not ready, please press button again.</string>
+    <string name="qibla_direction">Kaaba Direction:</string>
+    <string name="pls_enable_location">Please turn on Location and press the button again.</string>
+    <string name="degree_from_north">degrees from the north.</string>
+    <string name="using_last_location">using last location.</string>
+
+    <string name="warning">warning</string>
+    <string name="message_request_location_permission">we need to access your location to show nearby coffe shops</string>
+    <string name="ok">ok</string>
+    <string name="cannot_access_location">please change your location . weak gps signal</string>
+    <string name="please_enable_gps">please enable gps</string>
+
+
+</resources>
